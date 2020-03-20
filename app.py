@@ -37,7 +37,7 @@ def slack_corona():
             validated_results = {
                 'Country': results['country'],
                 'Cases per one million': results['casesPerOneMillion'],
-                'Today cases': results['todayCasesa'],
+                'Today cases': results['todayCases'],
                 'Today deaths': results['todayDeaths'],
                 'Active': results['active'],
                 'Critical': results['critical'],
